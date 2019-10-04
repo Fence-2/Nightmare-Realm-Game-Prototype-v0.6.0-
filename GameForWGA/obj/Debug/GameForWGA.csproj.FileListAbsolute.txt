@@ -1,0 +1,11 @@
+C:\Users\Fence_2\Source\Repos\GameForWGA\GameForWGA\bin\Debug\GameForWGA.exe.config
+C:\Users\Fence_2\Source\Repos\GameForWGA\GameForWGA\bin\Debug\GameForWGA.exe
+C:\Users\Fence_2\Source\Repos\GameForWGA\GameForWGA\bin\Debug\GameForWGA.pdb
+C:\Users\Fence_2\Source\Repos\GameForWGA\GameForWGA\obj\Debug\GameForWGA.csprojAssemblyReference.cache
+C:\Users\Fence_2\Source\Repos\GameForWGA\GameForWGA\obj\Debug\GameForWGA.Properties.Resources.resources
+C:\Users\Fence_2\Source\Repos\GameForWGA\GameForWGA\obj\Debug\GameForWGA.csproj.GenerateResource.cache
+C:\Users\Fence_2\Source\Repos\GameForWGA\GameForWGA\obj\Debug\GameForWGA.csproj.CoreCompileInputs.cache
+C:\Users\Fence_2\Source\Repos\GameForWGA\GameForWGA\obj\Debug\GameForWGA.exe
+C:\Users\Fence_2\Source\Repos\GameForWGA\GameForWGA\obj\Debug\GameForWGA.pdb
+C:\Users\Fence_2\Source\Repos\GameForWGA\GameForWGA\obj\Debug\GameForWGA.Resources.resources
+C:\Users\Fence_2\Source\Repos\GameForWGA\GameForWGA\obj\Debug\GameForWGA.GameWindow.resources
