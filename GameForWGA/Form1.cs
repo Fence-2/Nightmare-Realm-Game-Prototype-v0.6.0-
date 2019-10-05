@@ -15,8 +15,11 @@ namespace GameForWGA
         public GameWindow()
         {
             InitializeComponent();
-            SetStyle(ControlStyles.AllPaintingInWmPaint
-| ControlStyles.UserPaint | ControlStyles.DoubleBuffer, true);
+
+            SetStyle(ControlStyles.AllPaintingInWmPaint | 
+            ControlStyles.UserPaint | 
+            ControlStyles.DoubleBuffer, true);
+
             UpdateStyles();
         }
 
@@ -252,7 +255,9 @@ namespace GameForWGA
 
         private void MouseUpMethod(Button item, int ButtonLocationOnGrid_X, int ButtonLocationOnGrid_Y, MouseEventArgs mouseNow)
         {
-            if (mouseNow.Button == MouseButtons.Left && direction == 0)
+            if (mouseNow.Button == MouseButtons.Left && direction == 0 
+               && startingButtonLocOnGrid == item.Location
+                )
             {
                 //Проверка на движение вправо
                 if (mouseNow.X > startingMousePoint.X &&
@@ -308,6 +313,7 @@ namespace GameForWGA
                 }
             }
         }
+
         private void MouseDownMethod(Button s, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left && direction == 0)
@@ -343,6 +349,7 @@ namespace GameForWGA
             }
                 
         }
+
         private void GoUp(Button item)
         {
             if (item.Location.Y > startingButtonLocOnGrid.Y - 56)
@@ -355,6 +362,7 @@ namespace GameForWGA
                 direction = 0;
             }
         }
+
         private void GoDown(Button item)
         {
             if (item.Location.Y < startingButtonLocOnGrid.Y + 56)
@@ -388,6 +396,7 @@ namespace GameForWGA
             
         }
 
+        #region подключение методов к кнопкам
         private void item_1_MouseDown(object sender, MouseEventArgs e)
         {
             MouseDownMethod(item_1, e);
@@ -552,7 +561,7 @@ namespace GameForWGA
             buttonLocOnGrid = WhereThisButtonIsOnTheGrid(item_15.Location);
             MouseUpMethod(item_15, buttonLocOnGrid.X, buttonLocOnGrid.Y, e);
         }
+        #endregion
 
-        
     }
 }

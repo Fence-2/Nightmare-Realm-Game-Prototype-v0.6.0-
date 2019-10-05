@@ -51,10 +51,10 @@
             this.item_4 = new System.Windows.Forms.Button();
             this.mountain_1 = new System.Windows.Forms.Button();
             this.item_1 = new System.Windows.Forms.Button();
-            this.button26 = new System.Windows.Forms.Button();
-            this.button27 = new System.Windows.Forms.Button();
-            this.button28 = new System.Windows.Forms.Button();
+            this.columnTarget_1 = new System.Windows.Forms.Button();
+            this.columnTarget_2 = new System.Windows.Forms.Button();
             this.timerDo = new System.Windows.Forms.Timer(this.components);
+            this.columnTarget_3 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -89,7 +89,7 @@
             // 
             // mountain_6
             // 
-            this.mountain_6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(146)))), ((int)(((byte)(232)))));
+            this.mountain_6.BackColor = System.Drawing.Color.SlateGray;
             this.mountain_6.BackgroundImage = global::GameForWGA.Resources.mountain;
             this.mountain_6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.mountain_6.Enabled = false;
@@ -103,7 +103,7 @@
             // 
             // mountain_5
             // 
-            this.mountain_5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(146)))), ((int)(((byte)(232)))));
+            this.mountain_5.BackColor = System.Drawing.Color.SlateGray;
             this.mountain_5.BackgroundImage = global::GameForWGA.Resources.mountain;
             this.mountain_5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.mountain_5.Enabled = false;
@@ -117,7 +117,7 @@
             // 
             // mountain_4
             // 
-            this.mountain_4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(146)))), ((int)(((byte)(232)))));
+            this.mountain_4.BackColor = System.Drawing.Color.SlateGray;
             this.mountain_4.BackgroundImage = global::GameForWGA.Resources.mountain;
             this.mountain_4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.mountain_4.Enabled = false;
@@ -131,7 +131,7 @@
             // 
             // mountain_2
             // 
-            this.mountain_2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(146)))), ((int)(((byte)(232)))));
+            this.mountain_2.BackColor = System.Drawing.Color.SlateGray;
             this.mountain_2.BackgroundImage = global::GameForWGA.Resources.mountain;
             this.mountain_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.mountain_2.Enabled = false;
@@ -327,7 +327,7 @@
             // 
             // mountain_3
             // 
-            this.mountain_3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(146)))), ((int)(((byte)(232)))));
+            this.mountain_3.BackColor = System.Drawing.Color.SlateGray;
             this.mountain_3.BackgroundImage = global::GameForWGA.Resources.mountain;
             this.mountain_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.mountain_3.Enabled = false;
@@ -355,7 +355,7 @@
             // 
             // mountain_1
             // 
-            this.mountain_1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(111)))), ((int)(((byte)(146)))), ((int)(((byte)(232)))));
+            this.mountain_1.BackColor = System.Drawing.Color.SlateGray;
             this.mountain_1.BackgroundImage = global::GameForWGA.Resources.mountain;
             this.mountain_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.mountain_1.Enabled = false;
@@ -382,47 +382,54 @@
             this.item_1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.item_1_MouseDown);
             this.item_1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.item_1_MouseUp);
             // 
-            // button26
+            // columnTarget_1
             // 
-            this.button26.BackColor = System.Drawing.Color.SlateGray;
-            this.button26.BackgroundImage = global::GameForWGA.Resources.parchment;
-            this.button26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button26.FlatAppearance.BorderSize = 0;
-            this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button26.Location = new System.Drawing.Point(297, 61);
-            this.button26.Margin = new System.Windows.Forms.Padding(0);
-            this.button26.Name = "button26";
-            this.button26.Padding = new System.Windows.Forms.Padding(3);
-            this.button26.Size = new System.Drawing.Size(50, 50);
-            this.button26.TabIndex = 25;
-            this.button26.UseVisualStyleBackColor = false;
+            this.columnTarget_1.BackColor = System.Drawing.Color.SlateGray;
+            this.columnTarget_1.BackgroundImage = global::GameForWGA.Resources.parchment;
+            this.columnTarget_1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.columnTarget_1.FlatAppearance.BorderSize = 0;
+            this.columnTarget_1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.columnTarget_1.Location = new System.Drawing.Point(297, 61);
+            this.columnTarget_1.Margin = new System.Windows.Forms.Padding(0);
+            this.columnTarget_1.Name = "columnTarget_1";
+            this.columnTarget_1.Padding = new System.Windows.Forms.Padding(3);
+            this.columnTarget_1.Size = new System.Drawing.Size(50, 50);
+            this.columnTarget_1.TabIndex = 25;
+            this.columnTarget_1.UseVisualStyleBackColor = false;
             // 
-            // button27
+            // columnTarget_2
             // 
-            this.button27.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.button27.BackgroundImage = global::GameForWGA.Resources.parchment;
-            this.button27.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button27.FlatAppearance.BorderColor = System.Drawing.Color.Yellow;
-            this.button27.FlatAppearance.BorderSize = 2;
-            this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button27.Location = new System.Drawing.Point(409, 61);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(50, 50);
-            this.button27.TabIndex = 26;
-            this.button27.UseVisualStyleBackColor = false;
-            // 
-            // button28
-            // 
-            this.button28.Location = new System.Drawing.Point(521, 61);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(50, 50);
-            this.button28.TabIndex = 27;
-            this.button28.UseVisualStyleBackColor = true;
+            this.columnTarget_2.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.columnTarget_2.BackgroundImage = global::GameForWGA.Resources.parchment;
+            this.columnTarget_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.columnTarget_2.FlatAppearance.BorderColor = System.Drawing.Color.Yellow;
+            this.columnTarget_2.FlatAppearance.BorderSize = 2;
+            this.columnTarget_2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.columnTarget_2.Location = new System.Drawing.Point(409, 61);
+            this.columnTarget_2.Name = "columnTarget_2";
+            this.columnTarget_2.Size = new System.Drawing.Size(50, 50);
+            this.columnTarget_2.TabIndex = 26;
+            this.columnTarget_2.UseVisualStyleBackColor = false;
             // 
             // timerDo
             // 
-            this.timerDo.Interval = 1;
+            this.timerDo.Interval = 10;
             this.timerDo.Tick += new System.EventHandler(this.timerDo_Tick);
+            // 
+            // columnTarget_3
+            // 
+            this.columnTarget_3.BackColor = System.Drawing.Color.SlateGray;
+            this.columnTarget_3.BackgroundImage = global::GameForWGA.Resources.parchment;
+            this.columnTarget_3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.columnTarget_3.FlatAppearance.BorderSize = 0;
+            this.columnTarget_3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.columnTarget_3.Location = new System.Drawing.Point(521, 61);
+            this.columnTarget_3.Margin = new System.Windows.Forms.Padding(0);
+            this.columnTarget_3.Name = "columnTarget_3";
+            this.columnTarget_3.Padding = new System.Windows.Forms.Padding(3);
+            this.columnTarget_3.Size = new System.Drawing.Size(50, 50);
+            this.columnTarget_3.TabIndex = 27;
+            this.columnTarget_3.UseVisualStyleBackColor = false;
             // 
             // GameWindow
             // 
@@ -431,10 +438,13 @@
             this.BackgroundImage = global::GameForWGA.Resources.Firewatch_Thorofare_Dawn;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(865, 457);
-            this.Controls.Add(this.button28);
-            this.Controls.Add(this.button27);
-            this.Controls.Add(this.button26);
+            this.Controls.Add(this.columnTarget_3);
+            this.Controls.Add(this.columnTarget_2);
+            this.Controls.Add(this.columnTarget_1);
             this.Controls.Add(this.panel1);
+            this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
             this.Name = "GameWindow";
             this.Text = "Игра для Wargaming Academy от ";
             this.Load += new System.EventHandler(this.GameLoad);
@@ -445,9 +455,8 @@
 
         #endregion
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button26;
-        private System.Windows.Forms.Button button27;
-        private System.Windows.Forms.Button button28;
+        private System.Windows.Forms.Button columnTarget_1;
+        private System.Windows.Forms.Button columnTarget_2;
         private System.Windows.Forms.Button item_14;
         private System.Windows.Forms.Button item_12;
         private System.Windows.Forms.Button item_11;
@@ -470,6 +479,7 @@
         private System.Windows.Forms.Button item_7;
         private System.Windows.Forms.Button item_5;
         private System.Windows.Forms.Timer timerDo;
+        private System.Windows.Forms.Button columnTarget_3;
     }
 }
 
