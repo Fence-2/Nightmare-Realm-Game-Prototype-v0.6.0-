@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel1 = new System.Windows.Forms.Panel();
             this.mountain_6 = new System.Windows.Forms.Button();
             this.mountain_5 = new System.Windows.Forms.Button();
@@ -53,6 +54,7 @@
             this.button26 = new System.Windows.Forms.Button();
             this.button27 = new System.Windows.Forms.Button();
             this.button28 = new System.Windows.Forms.Button();
+            this.timerDo = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -152,6 +154,8 @@
             this.item_2.Size = new System.Drawing.Size(50, 50);
             this.item_2.TabIndex = 2;
             this.item_2.UseVisualStyleBackColor = false;
+            this.item_2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.item_2_MouseDown);
+            this.item_2.MouseUp += new System.Windows.Forms.MouseEventHandler(this.item_2_MouseUp);
             // 
             // item_3
             // 
@@ -164,6 +168,8 @@
             this.item_3.Size = new System.Drawing.Size(50, 50);
             this.item_3.TabIndex = 4;
             this.item_3.UseVisualStyleBackColor = false;
+            this.item_3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.item_3_MouseDown);
+            this.item_3.MouseUp += new System.Windows.Forms.MouseEventHandler(this.item_3_MouseUp);
             // 
             // item_6
             // 
@@ -176,6 +182,8 @@
             this.item_6.Size = new System.Drawing.Size(50, 50);
             this.item_6.TabIndex = 7;
             this.item_6.UseVisualStyleBackColor = false;
+            this.item_6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.item_6_MouseDown);
+            this.item_6.MouseUp += new System.Windows.Forms.MouseEventHandler(this.item_6_MouseUp);
             // 
             // item_5
             // 
@@ -188,6 +196,8 @@
             this.item_5.Size = new System.Drawing.Size(50, 50);
             this.item_5.TabIndex = 6;
             this.item_5.UseVisualStyleBackColor = false;
+            this.item_5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.item_5_MouseDown);
+            this.item_5.MouseUp += new System.Windows.Forms.MouseEventHandler(this.item_5_MouseUp);
             // 
             // item_9
             // 
@@ -200,6 +210,8 @@
             this.item_9.Size = new System.Drawing.Size(50, 50);
             this.item_9.TabIndex = 10;
             this.item_9.UseVisualStyleBackColor = false;
+            this.item_9.MouseDown += new System.Windows.Forms.MouseEventHandler(this.item_9_MouseDown);
+            this.item_9.MouseUp += new System.Windows.Forms.MouseEventHandler(this.item_9_MouseUp);
             // 
             // item_12
             // 
@@ -212,6 +224,8 @@
             this.item_12.Size = new System.Drawing.Size(50, 50);
             this.item_12.TabIndex = 15;
             this.item_12.UseVisualStyleBackColor = false;
+            this.item_12.MouseDown += new System.Windows.Forms.MouseEventHandler(this.item_12_MouseDown);
+            this.item_12.MouseUp += new System.Windows.Forms.MouseEventHandler(this.item_12_MouseUp);
             // 
             // item_14
             // 
@@ -224,6 +238,8 @@
             this.item_14.Size = new System.Drawing.Size(50, 50);
             this.item_14.TabIndex = 17;
             this.item_14.UseVisualStyleBackColor = false;
+            this.item_14.MouseDown += new System.Windows.Forms.MouseEventHandler(this.item_14_MouseDown);
+            this.item_14.MouseUp += new System.Windows.Forms.MouseEventHandler(this.item_14_MouseUp);
             // 
             // item_11
             // 
@@ -236,6 +252,8 @@
             this.item_11.Size = new System.Drawing.Size(50, 50);
             this.item_11.TabIndex = 14;
             this.item_11.UseVisualStyleBackColor = false;
+            this.item_11.MouseDown += new System.Windows.Forms.MouseEventHandler(this.item_11_MouseDown);
+            this.item_11.MouseUp += new System.Windows.Forms.MouseEventHandler(this.item_11_MouseUp);
             // 
             // item_13
             // 
@@ -248,6 +266,8 @@
             this.item_13.Size = new System.Drawing.Size(50, 50);
             this.item_13.TabIndex = 16;
             this.item_13.UseVisualStyleBackColor = false;
+            this.item_13.MouseDown += new System.Windows.Forms.MouseEventHandler(this.item_13_MouseDown);
+            this.item_13.MouseUp += new System.Windows.Forms.MouseEventHandler(this.item_13_MouseUp);
             // 
             // item_15
             // 
@@ -260,6 +280,8 @@
             this.item_15.Size = new System.Drawing.Size(50, 50);
             this.item_15.TabIndex = 18;
             this.item_15.UseVisualStyleBackColor = false;
+            this.item_15.MouseDown += new System.Windows.Forms.MouseEventHandler(this.item_15_MouseDown);
+            this.item_15.MouseUp += new System.Windows.Forms.MouseEventHandler(this.item_15_MouseUp);
             // 
             // item_10
             // 
@@ -272,6 +294,8 @@
             this.item_10.Size = new System.Drawing.Size(50, 50);
             this.item_10.TabIndex = 12;
             this.item_10.UseVisualStyleBackColor = false;
+            this.item_10.MouseDown += new System.Windows.Forms.MouseEventHandler(this.item_10_MouseDown);
+            this.item_10.MouseUp += new System.Windows.Forms.MouseEventHandler(this.item_10_MouseUp);
             // 
             // item_8
             // 
@@ -284,6 +308,8 @@
             this.item_8.Size = new System.Drawing.Size(50, 50);
             this.item_8.TabIndex = 9;
             this.item_8.UseVisualStyleBackColor = false;
+            this.item_8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.item_8_MouseDown);
+            this.item_8.MouseUp += new System.Windows.Forms.MouseEventHandler(this.item_8_MouseUp);
             // 
             // item_7
             // 
@@ -296,6 +322,8 @@
             this.item_7.Size = new System.Drawing.Size(50, 50);
             this.item_7.TabIndex = 8;
             this.item_7.UseVisualStyleBackColor = false;
+            this.item_7.MouseDown += new System.Windows.Forms.MouseEventHandler(this.item_7_MouseDown);
+            this.item_7.MouseUp += new System.Windows.Forms.MouseEventHandler(this.item_7_MouseUp);
             // 
             // mountain_3
             // 
@@ -322,6 +350,8 @@
             this.item_4.Size = new System.Drawing.Size(50, 50);
             this.item_4.TabIndex = 5;
             this.item_4.UseVisualStyleBackColor = false;
+            this.item_4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.item_4_MouseDown);
+            this.item_4.MouseUp += new System.Windows.Forms.MouseEventHandler(this.item_4_MouseUp);
             // 
             // mountain_1
             // 
@@ -347,11 +377,16 @@
             this.item_1.Name = "item_1";
             this.item_1.Size = new System.Drawing.Size(50, 50);
             this.item_1.TabIndex = 0;
+            this.item_1.TabStop = false;
             this.item_1.UseVisualStyleBackColor = false;
+            this.item_1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.item_1_MouseDown);
+            this.item_1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.item_1_MouseUp);
             // 
             // button26
             // 
-            this.button26.BackColor = System.Drawing.Color.Orange;
+            this.button26.BackColor = System.Drawing.Color.SlateGray;
+            this.button26.BackgroundImage = global::GameForWGA.Resources.parchment;
+            this.button26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button26.FlatAppearance.BorderSize = 0;
             this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button26.Location = new System.Drawing.Point(297, 61);
@@ -364,11 +399,17 @@
             // 
             // button27
             // 
+            this.button27.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.button27.BackgroundImage = global::GameForWGA.Resources.parchment;
+            this.button27.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button27.FlatAppearance.BorderColor = System.Drawing.Color.Yellow;
+            this.button27.FlatAppearance.BorderSize = 2;
+            this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button27.Location = new System.Drawing.Point(409, 61);
             this.button27.Name = "button27";
             this.button27.Size = new System.Drawing.Size(50, 50);
             this.button27.TabIndex = 26;
-            this.button27.UseVisualStyleBackColor = true;
+            this.button27.UseVisualStyleBackColor = false;
             // 
             // button28
             // 
@@ -377,6 +418,11 @@
             this.button28.Size = new System.Drawing.Size(50, 50);
             this.button28.TabIndex = 27;
             this.button28.UseVisualStyleBackColor = true;
+            // 
+            // timerDo
+            // 
+            this.timerDo.Interval = 1;
+            this.timerDo.Tick += new System.EventHandler(this.timerDo_Tick);
             // 
             // GameWindow
             // 
@@ -423,6 +469,7 @@
         private System.Windows.Forms.Button item_13;
         private System.Windows.Forms.Button item_7;
         private System.Windows.Forms.Button item_5;
+        private System.Windows.Forms.Timer timerDo;
     }
 }
 
